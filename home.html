@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title> Justin Ly </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "home.css">
+    </head>
+    <body> 
+        
+        <div class="intro"> 
+            <h1 class="remin-h">
+                <span class="remin">CLI</span><span class="remin">CK!</span>
+            </h1>
+        
+            <h1 class="logo-h">
+                <span class="logo">J</span><span class="logo">L</span>
+            </h1>
+        </div>
+        
+        <div id = home class="fadeIn">
+            <p id = "hello" style = "position:absolute; left:30%; top:40%; right:40%"> <span>Hello, My Name Is</span></p>
+            <h1 id  = "name" style = "position:absolute; left:30%; top:45%; right:40%"> <span>Justin Ly</span></h1>
+            <img id = "pic" style = "position:absolute; left:60%; top:25%;" src = "Justin_ccexpress.jpeg">
+        </div>
+
+        <div id="about" class="fadeOut">
+            <p id="aTR">你好</p>
+            <p id="aTL">Hello</p>
+            <p id="aBL">李 肇 榮</p>
+            <p id="aBR">Justin Ly</p>
+            <div class="aStyle">
+                <h2>你好</h2>
+                <h1>Hello, My Name Is Justin Ly.</h1>
+                <p style="font-size: 20px">I am a sophmore at the University of California, Merced majoring in Computer Science. I am still fairly new to coding and am exploring the countless paths that I can walk. I am eager to learn and gain new experiences to furthur my coding skills. In my free time, I teach myself different coding languages. This website is an example of that.</p>
+            </div>
+        </div>
+
+        <div id="projects" class="fadeOut">
+            <div id="comList">
+                <h1>Student Info & Computer List</h1>
+                <h3>Nov 2020 - May 2021 | Java</h3>
+                <p>Created a function to list out numerous info about students (major, school, age) and their computers (storage, load speed). Allows user to add students and computers as well as update the info. </p>
+            </div>
+            <div id="website">
+                <h1>Personal Website Portfolio</h1>
+                <h3>June 2022 - Present | HTML:CSS:JavaScript</h3>
+                <p>Taught myself how to create and design my own website. This website is a platform to show my creative and coding skills. Improved upon as new knowledge is unlocked!</p>
+            </div>
+        </div>
+
+        <div id="socials" class="fadeOut">
+            <h1>SOCIALS</h1>
+        </div>
+
+        
+        <div class = "container">
+            <div class="buttons">
+                <button  onclick="fadeInHome()" class="btn btn1">Home</button>
+                <button  onclick="fadeInAbout()" class="btn btn2">About</button>
+                <button  onclick="fadeInProjects()" class="btn btn3">Projects</button>
+                <button onclick="fadeInSocial()" class="btn btn4">Socials</button>
+            </div>
+        </div>
+
+        <!-- <div class="clouds">
+            <img src="cloud1.png">
+
+        </div> -->
+
+        
+
+    
+
+        <script src="app.js"></script>
+    </body>
+</html>
