@@ -7,6 +7,11 @@ html{
     
 }
 
+
+a{
+    text-decoration: none;
+}
+
 #hello{
     
     font-size: 20px;
@@ -219,6 +224,7 @@ html{
     font-family: 'Poppins', sans-serif;
     cursor:pointer;
     z-index: 4;
+    transition: 0.5s;
 }
 
 #aTL {
@@ -231,6 +237,7 @@ html{
     font-family: 'Poppins', sans-serif;
     cursor:pointer;
     z-index: 4;
+    transition: 0.5s;
 }
 
 #aBL {
@@ -243,6 +250,7 @@ html{
     font-family: 'Poppins', sans-serif;
     cursor:pointer;
     z-index: 4;
+    transition: 0.5s;
 }
 
 #aBR {
@@ -254,6 +262,7 @@ html{
     font-family: 'Poppins', sans-serif;
     cursor:pointer;
     z-index: 4;
+    transition: 0.5s;
 }
 
 #aTL:hover {
@@ -265,7 +274,7 @@ html{
                  0 0 80px #fff,
                  0 0 120px #fff,
                  0 0 160px #fff;
-    opacity:0.3;
+    opacity:0.5;
 }
 
 #aTR:hover {
@@ -277,7 +286,7 @@ html{
                  0 0 80px #fff,
                  0 0 120px #fff,
                  0 0 160px #fff;
-    opacity:0.3;
+    opacity:0.5;
 }
 
 #aBR:hover {
@@ -289,7 +298,7 @@ html{
                  0 0 80px #fff,
                  0 0 120px #fff,
                  0 0 160px #fff;
-    opacity:0.3;             
+    opacity:0.5;             
 }
 
 #aBL:hover {
@@ -301,7 +310,7 @@ html{
                  0 0 80px #fff,
                  0 0 120px #fff,
                  0 0 160px #fff;
-    opacity:0.3;
+    opacity:0.5;
 }
 
 #projects {
@@ -325,15 +334,95 @@ html{
     margin: 32px ;
 }
 
+#webL {
+    text-decoration: none;
+    color: blueviolet;
+}
+
 #socials {
     color: white;
     position: absolute;
     top:40%;
-    left: 30%;
-    right: 30%;
+    left: 35%;
+    right: 35%;
+    /* margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center; */
+
     
     
 }
+
+#socials ul li a{
+    color: white;
+}
+
+#socials ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* position: absolute;
+    top:50%;
+    left:40%;
+    right:40%; */
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+#socials ul li {
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+    margin: 0 30px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+#socials ul li:nth-child(1):hover {
+    transition: 0.5s;
+    color: rgba(245, 245, 245, 0.746);
+    box-sizing: 0 0 15px blue;
+    text-shadow: 0 0 15px blue;
+
+}
+
+#socials ul li:nth-child(2):hover {
+    transition: 0.5s;
+    color: rgb(245, 245, 245);
+    box-sizing: 0 0 15px rgba(149, 255, 0, 0.527);
+    text-shadow: 0 0 15px rgba(38, 255, 0, 0.633);
+
+}
+
+#socials ul li:nth-child(4):hover {
+    transition: 0.5s;
+    color: #e102ffb1;
+    box-sizing: 0 0 15px rgba(238, 0, 255, 0.531);
+    text-shadow: 0 0 15px rgba(247, 0, 255, 0.545);
+
+}
+
+
+#socials ul li:hover {
+    transition: 0.5s;
+    color: #ffa502;
+    box-sizing: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+}
+
+/* #sB {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+} */
 
 /*to fade content using buttons*/
 .fadeOut {
