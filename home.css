@@ -90,12 +90,13 @@ a{
      transition: 1s;
  }
 
- /* .remin-h{
+ .remin-h{
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
+    opacity:0;
  }
 
  .remin{
@@ -105,7 +106,7 @@ a{
     opacity: 0;
  }
 
- .remin.active{
+ /* .remin.active{
      opacity: 1;
      transition: ease-in-out 0.5s;
  }
