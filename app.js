@@ -15,19 +15,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
         
     })
-})
-
-window.addEventListener('click', ()=>{
-    setTimeout(()=>{
-        reminSpan.forEach((span, idx)=>{
-
-            setTimeout(()=>{
-                span.classList.remove('active');
-                span.classList.add('fade');
-            }, (idx + 1) * 50)
-        })
-    });
-
     setTimeout(()=>{
         logoSpan.forEach((span, idx)=>{
             setTimeout(()=>{
@@ -50,6 +37,20 @@ window.addEventListener('click', ()=>{
         }, 4400)
     })
 })
+
+// window.addEventListener('click', ()=>{
+//     setTimeout(()=>{
+//         reminSpan.forEach((span, idx)=>{
+
+//             setTimeout(()=>{
+//                 span.classList.remove('active');
+//                 span.classList.add('fade');
+//             }, (idx + 1) * 50)
+//         })
+//     });
+
+    
+// })
 
 function fadeInHome() {
     document.querySelector("#about").classList.replace("fadeIn", "fadeOut")
