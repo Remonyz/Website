@@ -90,7 +90,7 @@ a{
      transition: 1s;
  }
 
- .remin-h{
+ /* .remin-h{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -114,7 +114,7 @@ a{
     bottom: 150px;
     opacity: 0;
     transition: ease-in-out 0.5s;
- }
+ } */
 
  .logo-h{
      position: absolute;
